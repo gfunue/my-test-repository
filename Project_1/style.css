@@ -1,0 +1,118 @@
+header{
+    color: white;
+  }
+
+body {
+    background-color: ghostwhite;
+    user-select: none;
+  }
+
+  h1 {
+    display: flex;
+    justify-content:space-around;
+    font-style: oblique;
+    color: #8458B3;
+    padding: 0px;
+  }
+
+  p {
+    color: black;
+    padding: 3px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  nav {
+    display: flex;
+    justify-content:space-around;
+    padding: 10px;
+    background-color: #8458B3;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:25px;
+
+    
+   }
+
+   h3{
+    display: flex;
+    justify-content:space-around;
+    font-style: oblique;
+   }
+
+   div{
+    display: flex;
+    justify-content:space-around;
+  }
+
+  img {
+    width: 40%;
+    height: 50%;
+    margin: auto;
+    display: block;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    max-width: 500px;
+    max-height: 700px;
+  }
+
+  a {
+    color:white
+  }
+  
+  #email{
+    color: black;
+  }
+
+  #email:hover{
+    color:#8458B3;
+  }
+
+  #format{
+    align-content: center;
+    text-align: center;
+  }
+
+  a:link{
+    text-decoration: none;
+    color: #04AA6D;
+   }
+
+   a:visited{
+    background-color: white;
+    border-color: yellowgreen;
+    
+  }
+   
+   a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+  
+  a:active, a:focus {
+    color: yellow;
+    background-color: transparent;
+  }
+  
+  footer{
+    border-top: 1px solid #8458B3;
+    display: flex;
+    justify-content:space-around;
+  }
+  .about-me-intext-color{
+    color: blue;
+  }
+
+  .aboutme-intro-image{
+    width: 100%;
+    height: 100%;
+    
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+
+  .sticky{
+    position: fixed;
+    top: 0;
+    width: 98%;
+  }
