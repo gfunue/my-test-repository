@@ -1,12 +1,18 @@
 header{
+  size: 100%;
     color: white;
   }
 
 body {
-    background-color:white;
+  margin: auto;
     user-select: none;
     background-image: url("images/low-poly-white-background-design.jpg");
-    /*display: inline-block;*/
+    
+    
+  }
+  main{
+    max-width: 1000px;
+    margin: auto;
   }
 
   h1 {
@@ -20,17 +26,15 @@ body {
 
   p {
     color: black;
-    padding: 3px;
-    font-size: larger;
+    padding: 0px;
+    font-size: large;
     font-family: 'Times New Roman', Times, serif;
     text-indent: 30pt;
     
   }
 
   nav {
-    position: fixed;
     width: 100%;
-    top: 0px;
     display: flex;
     justify-content:space-around;
     padding: 10px;
@@ -38,7 +42,7 @@ body {
     color: white;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size:25px;
-    
+    margin:0%;
    }
 
    h3{
@@ -128,6 +132,10 @@ body {
     border-right: 5px solid #8458B3;
     border-left: 5px solid #8458B3;
   
+  }
+
+  .nav-width{
+    width: 100%;
   }
 
   
