@@ -1,15 +1,15 @@
-/* {
+* {
   margin: 0px;
   padding: 0px;
   border: 0px;
-}*/
+}
 header{
   size: 100%;
     color: white;
   }
 
 body {
-  margin: auto;
+    width: 100%;
     user-select: none;
     background-image: url("images/low-poly-white-background-design.jpg");
   }
@@ -24,13 +24,17 @@ body {
     justify-content:space-around;
     font-style: oblique;
     color: #8458B3;
-    padding: 0px;
+    padding-top: 30px;
+    padding-bottom: 0px;
     border-bottom: 1px solid;
   }
-
+h4{
+  padding-bottom: 2px;
+}
   p {
+    padding-top: 0px;
     color: black;
-    padding: 0px;
+    padding: 2px;
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
     text-indent: 30pt;
@@ -59,6 +63,8 @@ body {
     display: flex;
     justify-content:space-around;
     overflow: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   img {
     
@@ -135,9 +141,17 @@ body {
   }
 
   .paragraph-border-styling{
-    border-right: 5px solid #8458B3;
-    border-left: 5px solid #8458B3;
-  
+    border: 1px solid #8458B3;
+    border-left:150px transparent solid;
+    border-right:150px solid transparent;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(rgb(190, 186, 186)), to(#fff));
+  }
+
+  .fading-line{
+    border: 1px solid #8458B3;
+    border-left:50px solid transparent;
+    border-right:50px solid transparent;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(rgb(190, 186, 186)), to(#fff));
   }
 
   .nav-width{
@@ -154,14 +168,24 @@ ul {
 }
 
 li {
-    margin-bottom: 24px;
+    
     display: inline-block;
     size: 200px;
-    padding: 0px;
+    padding: 4px;
+    width: 50%;
     
 }
+.box{
+  box-shadow: inset 0 0 5px 1px #311b0b;
+  }
+  .li{
+    border-left: 1px solid #8458B3;
+  }
+  h6{
+    padding-left: 90%;
+  }
 
-.li{
-  border-left: 1px solid #8458B3;
-}
+  .customized-padding{
+    padding-bottom: 100px;
+  }
   
