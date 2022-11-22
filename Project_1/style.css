@@ -9,10 +9,10 @@ header{
   }
 
 body {
-    width: 100%;
-    min-width: 840px;
-    user-select: none;
-    background-image: url("images/low-poly-white-background-design.jpg");
+  width: 100%;
+  min-width: 840px;
+  user-select: none;
+  background-image: url("images/low-poly-white-background-design.jpg");
   }
   main{
     max-width: 1000px;
@@ -25,13 +25,22 @@ body {
     display: flex;
     justify-content:space-around;
     font-style: oblique;
-    color: #8458B3;
-    padding-top: 30px;
-    padding-bottom: 0px;
-    border-bottom: 1px solid;
+    color: white;
+    background-color: #8458B3;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    /*border-bottom: 1px solid;*/
   }
   h2{
     text-align: center;
+    color: white;
+    background-color: #8458B3;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
   }
 h4{
   padding-bottom: 2px;
@@ -47,18 +56,20 @@ p {
   
 }
 
-  nav {
-    width: 100%;
-    display: flex;
-    justify-content:space-around;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    background-color: #8458B3;
-    color: white;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size:25px;
-    margin:0%;
-   }
+nav {
+  position: fixed;
+  width: 100%;
+  min-width: 840px;
+  display: flex;
+  justify-content:space-around;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #8458B3;
+  color: white;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size:25px;
+  margin:0%;
+ }
 
    h3{
     display: flex;
@@ -69,13 +80,16 @@ p {
    div{
     padding-top: 0px;
     padding-bottom: 40px;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
     width: 100%;
-
   }
+
+  #homepage-div{
+display: flex;
+justify-content: space-around;
+padding-top: 40px;
+  }
+
   img { 
-    margin: auto;
     padding-top: 2px;
     padding-bottom: 2px;
     max-width: 300px;
@@ -83,14 +97,15 @@ p {
     height: 300px;
     float: right;
     margin: 4px;
-    
   }
 
 .padding-top{
-  padding-top: 70px;
+  padding-top: 50px;
   max-width: 30%;
-  min-width: 400px;
-  
+  min-width: 400px; 
+  height: 500px;
+  float:none;
+  display: center;
 }
   
   a {
@@ -143,10 +158,10 @@ p {
   }
 
   .aboutme-intro-image{
-    width: 90%;
-    padding-top: 10px;
+    width: 50%;
+    padding-top: 40px;
     padding-bottom: 10px;
-    max-width: 100%; 
+    max-width: 70%; 
   }
 
   .nav-width{
@@ -165,12 +180,12 @@ li{
 
 .display-flex{
   display: flex;
-  padding-left: 20px;
-  width: 100%; 
+  padding-left: 10px;
+ 
 }
- .my-display{
+.my-display{
   width: 200px;
   height: 200px;
   padding-top: 40px;
-
+  /* width: 100%; */ 
  }
