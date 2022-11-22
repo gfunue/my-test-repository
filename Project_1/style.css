@@ -20,12 +20,13 @@ body {
     margin: auto;
     padding: 4px;
   }
-
   h1 {
     display: flex;
     justify-content:space-around;
     font-style: oblique;
     color: white;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: #8458B3;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
@@ -33,9 +34,17 @@ body {
     border-top-right-radius: 25px;
     /*border-bottom: 1px solid;*/
   }
+
+  .h1-center{
+    display: flex;
+    justify-content:space-around;
+  }
+  
   h2{
     text-align: center;
     color: white;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: #8458B3;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
@@ -52,10 +61,18 @@ p {
   font-size: large;
   font-family: 'Times New Roman', Times, serif;
   text-indent: 30pt;
-  text-align: justify;
-  
+  text-align: justify; 
 }
 
+.paragraph-styling{
+  padding: 5px;
+  border: 1px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  margin: px;
+}
 nav {
   position: fixed;
   width: 100%;
@@ -80,9 +97,10 @@ nav {
    div{
     padding-top: 0px;
     padding-bottom: 40px;
-    width: 100%;
+    width: flex;
+    max-width: 100%;
+    
   }
-
   #homepage-div{
 display: flex;
 justify-content: space-around;
@@ -120,9 +138,16 @@ padding-top: 40px;
     color:#8458B3;
   }
 
-  #format{
+  .format{
     align-content: center;
     text-align: center;
+    padding: 30px;
+    border: 1px solid #8458B3;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin: 0px;
     
   }
 
@@ -148,7 +173,8 @@ padding-top: 40px;
   }
   
   footer{
-    padding-top: 10px;
+    padding-top: 0px;
+    padding-bottom: 5px;
     border-top: 1px solid #8458B3;
     display: flex;
     justify-content:space-around;
@@ -188,4 +214,25 @@ li{
   height: 200px;
   padding-top: 40px;
   /* width: 100%; */ 
+ }
+
+ #homepage-footer-padding{
+  padding-bottom: 50px;
+ }
+
+ .inside-div-width{
+  width: 50%;
+ }
+  .in-div-padding-right{
+    padding-right: 15px;
+  }
+  .in-div-padding-left{
+    padding-left: 15px;
+  }
+
+ .image-size{
+  width: 200px;
+  height: 220px;
+  padding-top: 60px;
+  padding-left: 4px;
  }
