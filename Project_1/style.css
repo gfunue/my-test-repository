@@ -12,7 +12,7 @@ body {
   width: 100%;
   min-width: 840px;
   user-select: none;
-  background-image: url("images/low-poly-white-background-design.jpg");
+  background-image: url("images/1.jpg");
   }
   main{
     max-width: 1000px;
@@ -140,15 +140,14 @@ padding-top: 40px;
 
   .format{
     align-content: center;
-    text-align: center;
-    padding: 30px;
+    padding: 0px;
     border: 1px solid #8458B3;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    margin: 0px;
-    
+    margin-bottom: 50px; 
+    background-image: url("images/white-background.jpg"); 
   }
 
   a:link{
@@ -202,12 +201,13 @@ padding-top: 40px;
 
 li{
   padding-bottom: 0px;
+  padding-left: 20px;
 }
 
 .display-flex{
   display: flex;
   padding-left: 10px;
- 
+  background-image: url("images/white-background.jpg");
 }
 .my-display{
   width: 200px;
