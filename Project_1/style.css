@@ -11,23 +11,25 @@ header{
 body {
   width: 100%;
   min-width: 840px;
-  user-select: none;
-  background-image: url("images/1.jpg");
+  background-image: url("images/2.jpeg");
+  background-size: 100%;
   }
   main{
-    max-width: 1000px;
+    max-width: 1100px;
     min-width: 840px;
     margin: auto;
-    padding: 4px;
+    padding: 60px;
   }
   h1 {
     display: flex;
     justify-content:space-around;
     font-style: oblique;
     color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: #8458B3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #B55A30;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     border-top-left-radius: 25px;
@@ -37,21 +39,25 @@ body {
 
   .h1-center{
     display: flex;
+    padding-bottom: 50px;
     justify-content:space-around;
   }
   
   h2{
     text-align: center;
     color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: #8458B3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #B55A30;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
   }
 h4{
+  padding-top: 0px;
   padding-bottom: 2px;
 }
 p {
@@ -71,7 +77,6 @@ p {
   border-bottom-right-radius: 25px;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
-  margin: px;
 }
 nav {
   position: fixed;
@@ -79,8 +84,8 @@ nav {
   min-width: 840px;
   display: flex;
   justify-content:space-around;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: #8458B3;
   color: white;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -102,9 +107,15 @@ nav {
     
   }
   #homepage-div{
-display: flex;
-justify-content: space-around;
-padding-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  }
+  .border{
+    border: solid;
+  border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
   }
 
   img { 
@@ -117,14 +128,13 @@ padding-top: 40px;
     margin: 4px;
   }
 
-.padding-top{
-  padding-top: 50px;
-  max-width: 30%;
-  min-width: 400px; 
-  height: 500px;
-  float:none;
-  display: center;
-}
+  .padding-top{
+    padding-top: 0px;
+    max-width: 30%;
+    min-width: 400px; 
+    height: 500px;
+    display: flex;
+  }
   
   a {
     color:white
@@ -139,15 +149,16 @@ padding-top: 40px;
   }
 
   .format{
-    align-content: center;
-    padding: 0px;
+    /*align-content: center;*/
+    padding: 20px;
     border: 1px solid #8458B3;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    margin-bottom: 50px; 
+    margin-bottom: 40px; 
     background-image: url("images/white-background.jpg"); 
+    background-size: 100%;
   }
 
   a:link{
@@ -199,11 +210,6 @@ padding-top: 40px;
    
 }
 
-li{
-  padding-bottom: 0px;
-  padding-left: 20px;
-}
-
 .display-flex{
   display: flex;
   padding-left: 10px;
@@ -231,8 +237,14 @@ li{
   }
 
  .image-size{
-  width: 200px;
-  height: 220px;
-  padding-top: 60px;
-  padding-left: 4px;
+  width: 250px;
+  height: 300px;
+  padding: 0px;
+  border: 1px solid;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
  }
+
+ 
