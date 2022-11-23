@@ -169,12 +169,10 @@ nav {
    a:visited{
     background-color: white;
     border-color: yellowgreen;
-    
   }
    
    a:hover {
     color: black;
-    text-decoration: underline;
   }
   
   a:active, a:focus {
@@ -246,5 +244,19 @@ nav {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
  }
+
+ .fa {
+  padding: 10px;
+  font-size: 40px;
+  width: 50px;
+  text-align: center;
+  border: 1px solid #8458B3;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: black;
+    
+}
 
  
